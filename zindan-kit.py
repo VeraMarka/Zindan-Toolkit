@@ -40,7 +40,7 @@ if seçim == 3:
 if seçim == 4:
   os.system("clear")
   os.system("git clone https://github.com/VeraMarka/IpConfig.git")
-  os.systen("cd IpConfig")
+  os.system("cd IpConfig")
   os.system("python Zindan-Check.py")
 
 if seçim == 5:
