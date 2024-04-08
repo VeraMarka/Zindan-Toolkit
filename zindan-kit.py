@@ -21,8 +21,8 @@ print("\033[1;34m", end="")
 seçim = int(input())
 if seçim == 1:
   os.system("clear")
-  os.system("git clone https://github.com/VeraMarka/Tiktok-Izlenme.")
   os.system("cd")
+  os.system("git clone https://github.com/VeraMarka/Tiktok-Izlenme.")
   os.system("cd Tiktok-Izlenme")
   os.system("python izlenme.py")
 
@@ -33,14 +33,16 @@ if seçim == 2:
 
 if seçim == 3:
   os.system("clear")
+  os.system("cd")
   os.system("git clone https://github.com/VeraMarka/IgTok.git")
   os.system("cd IgTok")
   os.system("python igtok.py")
 
 if seçim == 4:
   os.system("clear")
+  os.system("cd")
   os.system("git clone https://github.com/VeraMarka/IpConfig.git")
-  os.system(" cd IpConfig ")
+  os.system("cd IpConfig")
   os.system("python Zindan-Check.py")
 
 if seçim == 5:
