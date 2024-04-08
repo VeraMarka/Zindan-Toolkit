@@ -27,7 +27,7 @@ if seçim == 1:
 
 if seçim == 2:
   print("\033[93m\033[1mBu Araç Şuan bakımda.\033[0m")
-  time.sleep("3)
+  time.sleep(3)
   os.system("zindan-kit.py")
 
 if seçim == 3:
