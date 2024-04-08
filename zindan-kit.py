@@ -21,7 +21,8 @@ print("\033[1;34m", end="")
 seçim = int(input())
 if seçim == 1:
   os.system("clear")
-  os.system("git clone https://github.com/VeraMarka/Tiktok-Izlenme.git")
+  os.system("git clone https://github.com/VeraMarka/Tiktok-Izlenme.")
+  os.system("cd")
   os.system("cd Tiktok-Izlenme")
   os.system("python izlenme.py")
 
